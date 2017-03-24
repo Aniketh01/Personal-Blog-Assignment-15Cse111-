@@ -129,60 +129,84 @@
             }
         }
 
-        @media (max-width: 979px){
-            nav>a{
+        @media (max-width: 979px) {
+            nav > a {
                 padding: 0 1.5em;
             }
 
-        @media (max-width: 767px) {
-            .container{
-                width: 95%;
-            }
-            nav>a{
-                padding: 0 2em;
-            }
-            h1{
-                padding: .5em 0;
-            }
-            .header-left,
-            .header-right{
-                width: 100%;
-                text-align: center;
+            @media (max-width: 767px) {
+                .container {
+                    width: 95%;
+                }
+
+                nav > a {
+                    padding: 0 2em;
+                }
+
+                h1 {
+                    padding: .5em 0;
+                }
+
+                .header-left,
+                .header-right {
+                    width: 100%;
+                    text-align: center;
+                }
             }
 
 
-        @media (max-width: 480px) {
-            body{
-                padding: 0 .5em;
-            }
-            .container{
-                width: 90%;
-            }
-            nav{
-                height: 0;
-                overflow: hidden;
-                -webkit-transition: all .3s ease;
-            }
-            input[type="checkbox"]:checked + nav{
-                height: 205px;
-            }
-            nav>a{
-                padding: 0 1em;
-                display: block;
-                border-bottom: solid 1px rgba(255,255,255,.1);
-            }
-            h1{
-                padding: .5em 0;
-            }
-            .header-left,
-            .header-right{
-                width: 100%;
-                text-align: center;
-            }
+            @media (max-width: 480px) {
+                body {
+                    padding: 0 .5em;
+                }
 
-            .hidden-desktop{
-                display: block;
+                .container {
+                    width: 90%;
+                }
+
+                nav {
+                    height: 0;
+                    overflow: hidden;
+                    -webkit-transition: all .3s ease;
+                }
+
+                input[type="checkbox"]:checked + nav {
+                    height: 205px;
+                }
+
+                nav > a {
+                    padding: 0 1em;
+                    display: block;
+                    border-bottom: solid 1px rgba(255, 255, 255, .1);
+                }
+
+                h1 {
+                    padding: .5em 0;
+                }
+
+                .header-left,
+                .header-right {
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .hidden-desktop {
+                    display: block;
+                }
             }
+        }
+        img {
+            width: 250px;
+            height: 250px;
+            margin-left: 565px;
+            margin-top: 30px;
+            border: 1px solid;
+        }
+
+        p {
+            font-family: cursive;
+            font-size: 18px;
+            padding: 15px 15px 15px 15px;
         }
     </style>
 
@@ -202,11 +226,20 @@
             <nav>
                 <a href="#">Home</a>
                 <a href="http://aniketh01.github.io/">Work</a>
-                <a href="#">About</a>
+                <a href="#">About me</a>
                 <a href="#">Contact</a>
             </nav>
         </div>
     </div>
 </header>
+
+<img src="pik.jpg" align="center"/>
+
+<br>
+<br>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+</p>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
 </body>
 </html>
